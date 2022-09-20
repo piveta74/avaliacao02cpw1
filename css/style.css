@@ -28,7 +28,7 @@ p{
 }
 #header{
     background-color: #0165A1;
-    padding: 40px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
 }
 #header h1{
     color: white;
@@ -59,9 +59,10 @@ p{
     padding: 5px 0; 
     margin: 0;
     width: 30%;
+    text-align: center;
 }
 #quemsou img{
-    width: 60%;
+    width: 65%;
     border-radius: 50%;
     border-style: solid;
     border-width: 10px;
@@ -81,5 +82,50 @@ p{
 }
 
 @media screen and (max-width: 600px){
-    
+    body{
+        text-align: center;
+    }
+    #header h1{
+        font-size: 300%;
+        margin: 10%;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+    #texto{
+        margin: 10% 0 10% 0;
+        padding: 0;
+    }
+    #texto h2{
+        font-size: 250%;
+        margin: 5%;
+    }
+    #texto p{
+        font-family: 'light-roboto';
+        font-size: 140%;
+        margin: 5%;
+    }
+    #quemsou{
+        padding-bottom: 0;
+        width: 100%;
+    }
+    #quemsou h2{
+        font-size: 250%;
+        margin: 5%;
+    }
+    #quemsou img{
+        margin: 5%;
+    }
+    #quemsou p{
+        font-family: 'light-roboto';
+        font-size: 140%;
+        margin: 5%;
+    }
+    #footer p{
+        font-size: 110%;
+    }
+    #footer img{
+        width: 12%;
+    }
 }
